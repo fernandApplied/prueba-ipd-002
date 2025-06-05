@@ -16,5 +16,9 @@ metadata:
     github.com/project-slug: fernandApplied/prueba-ipd-002
 spec:
   type: service
-  owner: user:fernandApplied
-  lifecycle: experimental
+  lifecycle: production
+  owner: group:targaryen
+  system: tour-of-heroes
+  dependsOn: ['resource:heroes-db']  
+  providesApis:
+  - heroes-java-api
