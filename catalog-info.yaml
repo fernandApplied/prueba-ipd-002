@@ -2,7 +2,19 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "ipdPrueba002"
+  description: Prueba ipd 002
+  tags:
+    - java    
+  links:
+    - url: https://github.com/fernandApplied/prueba-ipd-002
+      title: Source Code
+      icon: github
+    - url: https://api.heroes.es
+      title: Production
+      icon: globe
+  annotations:
+    github.com/project-slug: fernandApplied/prueba-ipd-002
 spec:
   type: service
-  owner: user:guest
+  owner: user:fernandApplied
   lifecycle: experimental
